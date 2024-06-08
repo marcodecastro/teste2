@@ -24,7 +24,7 @@ const Login = () => {
     e.preventDefault();
     try {
       // Enviar os dados ao backend
-      const response = await fetch('http://localhost:4000/login', {
+      const response = await fetch('https://teste1-xepg.onrender.com/login', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
