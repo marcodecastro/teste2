@@ -26,7 +26,7 @@ function Cadastro() {
 
     try {
       // Enviar os dados ao backend
-      const response = await fetch('https://teste1-xepg.onrender.com/cadastro', {
+      const response = await fetch('http://localhost:5000/cadastro', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
